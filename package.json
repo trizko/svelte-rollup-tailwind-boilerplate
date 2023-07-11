@@ -1,5 +1,5 @@
 {
-  "name": "frontend",
+  "name": "svelte-rollup-tailwind-boilerplate",
   "version": "1.0.0",
   "description": "boilerplate setup for svelte, tailwindcss, and rollup",
   "main": "src/main.js",
