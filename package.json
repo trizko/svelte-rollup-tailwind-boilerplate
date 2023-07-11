@@ -1,0 +1,32 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "boilerplate setup for svelte, tailwindcss, and rollup",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.3",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.25",
+    "rollup": "^3.26.2",
+    "rollup-plugin-css-only": "^4.3.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-svelte": "^7.1.6",
+    "svelte": "^4.0.5",
+    "svelte-preprocess": "^5.0.4",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "sirv-cli": "^2.0.2"
+  }
+}
